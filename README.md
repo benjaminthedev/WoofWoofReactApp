@@ -1,7 +1,5 @@
-# WoofWoofReactApp
 
-
-# Dog Image Finder
+# Dog Image Finder - React, TypeScript & FlexBox
 
 This is a small React Application that is TypeScript and Flexbox.
 

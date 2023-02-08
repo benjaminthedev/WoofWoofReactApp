@@ -1,0 +1,131 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Modal Styles */
+
+.ReactModal__Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border: none;
+  max-height: 80%;
+  max-width: 80%;
+  overflow: scroll;
+  position: relative;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+
+.ReactModal__Content button {
+  align-self: flex-start;
+}
+
+.flex__images{
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.image {
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #eee;
+}
+
+.image img {
+  
+  display: flex;
+  align-items: center;
+  
+}
+
+.selects__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.selectedBreed__flex{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  min-width: 170px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+
+
+h1, h5 {
+  text-align: center;
+}
+
+
+
+
+
